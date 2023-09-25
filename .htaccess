@@ -1,0 +1,6 @@
+
+# HTID:21752997: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+RewriteEngine On
+RewriteRule !(^static) app.php
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:21752997:
