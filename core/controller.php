@@ -67,7 +67,7 @@ class Controller{
         require_once CLASSES.'app_handler.php';
             $url = new AppHandler();
             $url = $url->analizer();
-            array_shift($url);//este array shift lo debi colocar en desarrollo para que funcione
+            //array_shift($url);//este array shift lo debi colocar en desarrollo para que funcione
             return $url; 
     }
 

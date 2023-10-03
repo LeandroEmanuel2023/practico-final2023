@@ -20,8 +20,8 @@ define('BASEPATH'       , IS_LOCAL ? '/public_html/': ' /storage/ssd4/874/207968
 define('AUTH_SALT'      , 'mi-framework\m/');
 //puerto del sitio
 //define('PORT'           , '21');
-define('PORT'           , '8848'); //puerto prepros
-//define('PORT'           , '80'); puerto php myadmin
+//define('PORT'           , '8848'); //puerto prepros
+define('PORT'           , '80'); //puerto php myadmin
 //URL del sitio
 define('URL'            , IS_LOCAL ? 'http://127.0.0.1:'.PORT.BASEPATH : 'https://mi-fmwkmvc2023.000webhostapp.com/');
 
